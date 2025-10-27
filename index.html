@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+     <nav>
+        <div class="left">
+            <a href="/">Connor McCue</a>
+        </div>
+
+        <div class="right">
+            <a href="http://github.com/connormccue23" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com/in/connormccue23" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:connormccue@icloud.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+     </nav>
+     <main>
+        <section class="info-section">
+            <div class="text">
+                <h2>About Me</h2>
+                <p>
+                    My name is Connor McCue, and I am currently a Senior at Virginia Tech, pursuing a Bachelor's Degree in Computer Science, with minors in both Mathematics and Cybersecurity. I have a strong passion for software development and cybersecurity fundamentals, and have curated numerous projects incorporating both ideas. I am apart of the professional engineering fraternity on campus, Theta Tau, where I served on the executive board for a year. I also work at the Center for Engineering Excellence and Discovery as a Peer Leader, helping to run the Peer Mentoring Program that the organization offers.
+                </p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#summerwork">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Summer Internship</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="images/IMG_0400.jpeg" alt="Connor McCue">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Below are some of the programming languages that I have experience with and am familiar with:
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html4.webp" alt="HTML Logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css.webp" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/java.webp" alt="Java Logo">
+                    <span>Java</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/python.webp" alt="Python Logo">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/cLogo.webp" alt="C Logo">
+                    <span>C/C++</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/sql.webp" alt="SQL Logo">
+                    <span>SQL</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/json.webp" alt="JSON Logo">
+                    <span>JSON</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/git.webp" alt="Git Logo">
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <div class="cells">
+                <div class="cell">
+                    <a href="https://github.com/ConnorMcCue23/QueueProject" target="_blank" rel="noopener noreferrer">
+                        <span>Firebase Authenticated Queue</span>
+                    </a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://github.com/ConnorMcCue23/BrawlAPI" target="_blank" rel="noopener noreferrer">
+                        <span>API Stat Tracker</span>
+                    </a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://github.com/ConnorMcCue23/MessageBoard" target="_blank" rel="noopener noreferrer">
+                        <span>Full Stack Personal Message Board</span>
+                    </a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://github.com/ConnorMcCue23/MLGatePredictor" target="_blank" rel="noopener noreferrer">
+                        <span>Machine Learning Game Predictor</span>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECTION 4: Summer Work -->
+    <section id="summerwork" class="summer-section">
+      <h2>Summer Internship</h2>
+
+      <div class="text">
+        Over the summer, I had the incredible opportunity to intern at the Center for Engineering Excellence and Discovery. Starting in March, I was brought on as a Software Engineer, tasked with designing a project for middle school students to build over the summer. Over the next couple months, I worked closely with the software development team, along with the electrical engineering and industrial designer teams to build our own rendition of a GameBoy, called a CROQuest. The project was developed primarily in C, and features many classic arcade games such as Snake, Pong, and Tetris.
+      </div>
+
+      <div class="media">
+        <div class="video">
+        <iframe src="https://cdnapisec.kaltura.com/p/2375811/sp/237581100/embedIframeJs/uiconf_id/41951101/partner_id/2375811?iframeembed=true&playerId=vt_video_1_pp55kikg_1756357106229&entry_id=1_pp55kikg&flashvars[streamerType]=auto&flashvars[closedCaptions.plugin]=false&flashvars[transcript.plugin]=false" width="350" height="275" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+        </div>
+        <!--
+        <div class="images"> 
+            <div class="image">
+                <img src="images/IMG_0707.jpg">
+            </div>
+            
+            <div class="image">
+                <img src="images/IMG_0767.jpg">
+            </div>
+        </div>
+        -->
+      </div>
+    </section>
+
+
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            If you have any questions, comments, or would like to get in touch, please feel free to reach out using the form below!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
